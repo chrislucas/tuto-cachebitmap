@@ -1,0 +1,11 @@
+https://developer.android.com/guide/topics/resources/runtime-changes.html
+
+Frase importante
+Ao restaurar qualquer objeto, não se deve nunca passar um objeto vinculado a Activity,
+como um Drawable, um Adapter, um View ou qualquer outro objeto associado a um Context.
+Se o fizer, ele vazará todas as exibições e recursos da instância da atividade original.
+(vazar recursos significa que o aplicativo mantém a retenção deles, que não podem ser recolhidos,
+o que causa perda de memória).
+
+Problema de vazamento de memoria (memory leak) que sempre ocorre quando mostro um ProgressDialog
+e inicio outra activity sem fechar-lo e destrui-lo
