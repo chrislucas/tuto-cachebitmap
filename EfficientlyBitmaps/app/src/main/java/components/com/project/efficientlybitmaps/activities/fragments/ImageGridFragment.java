@@ -13,18 +13,18 @@ import components.com.project.efficientlybitmaps.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link ImageGrid.OnFragmentInteractionListener} interface
+ * {@link ImageGridFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link ImageGrid#newInstance} factory method to
+ * Use the {@link ImageGridFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ImageGrid extends Fragment {
+public class ImageGridFragment extends Fragment {
 
 
 
     private OnFragmentInteractionListener mListener;
 
-    public ImageGrid() {
+    public ImageGridFragment() {
         // Required empty public constructor
     }
 
@@ -32,11 +32,11 @@ public class ImageGrid extends Fragment {
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
-     * @return A new instance of fragment ImageGrid.
+     * @return A new instance of fragment ImageGridFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ImageGrid newInstance() {
-        ImageGrid fragment = new ImageGrid();
+    public static ImageGridFragment newInstance() {
+        ImageGridFragment fragment = new ImageGridFragment();
         return fragment;
     }
 
@@ -49,7 +49,8 @@ public class ImageGrid extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_image_grid, container, false);
+        View view = inflater.inflate(R.layout.fragment_image_grid, container, false);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

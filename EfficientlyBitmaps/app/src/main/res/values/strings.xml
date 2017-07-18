@@ -2,5 +2,5 @@
     <string name="app_name">EfficientlyBitmaps</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_image_grid">Fragment Image Grid</string>
 </resources>
