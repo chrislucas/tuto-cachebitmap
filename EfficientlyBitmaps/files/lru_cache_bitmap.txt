@@ -1,0 +1,25 @@
+https://android.jlelse.eu/loading-large-bitmaps-efficiently-in-android-66826cd4ad53
+
+https://github.com/AndroidDeveloperLB/AndroidJniBitmapOperations/issues/6
+
+ttps://developer.android.com/reference/android/util/LruCache
+https://developer.android.com/topic/performance/graphics/cache-bitmap
+https://developer.android.com/reference/android/support/v4/util/LruCache
+
+Pesquisar
+lru cache geeksforgeeks
+https://www.geeksforgeeks.org/design-a-data-structure-for-lru-cache/
+
+https://www.programcreek.com/2013/03/leetcode-lru-cache-java/
+https://leetcode.com/problems/lru-cache/
+https://www.geeksforgeeks.org/lru-cache-implementation/
+
+
+
+
+How to load tiles from a large bitmap in Android?
+https://stackoverflow.com/questions/4753013/how-to-load-tiles-from-a-large-bitmap-in-android/5089350#5089350
+
+https://gist.github.com/ar-android/4c31812d3e06fcd06db0
+
+https://doc.lagout.org/programmation/Android/High%20Performance%20Android%20Apps_%20Improve%20Ratings%20with%20Speed%2C%20Optimizations%2C%20and%20Testing%20%5BSillars%5D%20%28draft%29.pdf
